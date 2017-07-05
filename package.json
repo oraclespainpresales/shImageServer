@@ -1,0 +1,25 @@
+{
+  "name": "shimageserver",
+  "version": "1.0.0",
+  "description": "Smart Hospitality: Dummy webserver to host images for the Face Recognition server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oraclespainpresales/shImageServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oraclespainpresales/shImageServer/issues"
+  },
+  "homepage": "https://github.com/oraclespainpresales/shImageServer#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mkdirp": "^0.5.1",
+    "npmlog-ts": "0.0.1"
+  }
+}
