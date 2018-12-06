@@ -47,7 +47,7 @@ const SELFIE = 'SELFIE'
     , ID = 'DNI'
 ;
 
-const SELF = 'http://new.proxy.digitalpracticespain.com:' + PORT + '/' + IMAGES + '/';
+const SELF = 'http://infra.wedoteam.io:' + PORT + '/' + IMAGES + '/';
 
 function uploadFile(req, res) {
   var demozone = req.params.demozone.toUpperCase();
